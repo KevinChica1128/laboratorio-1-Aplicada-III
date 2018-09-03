@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  1 SEP 2018 09:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  2 SEP 2018 21:47
 entering extended mode
 **"./Laboratorio 1.tex"
 ("Laboratorio 1.tex"
@@ -291,8 +291,10 @@ Package: harvard
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)))
-No file "Laboratorio 1".aux.
+))) ("Laboratorio 1.aux"
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
 \openout1 = `"Laboratorio 1.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -384,111 +386,69 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 LaTeX Warning: Characters dropped after `\end{comment}' on input line 125.
 
+[1
 
-Overfull \hbox (1.94527pt too wide) in paragraph at lines 139--140
-[] \OT1/cmr/m/n/10 = 57720\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 52 + 24261\OML/cmm/
-m/it/10 :\OT1/cmr/m/n/10 20\OML/cmm/m/it/10 IngresoMediano \OT1/cmr/m/n/10 + 34
-43\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 94\OML/cmm/m/it/10 EdadMediana \OT1/cmr/m/n
-/10 + 19\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 09\OML/cmm/m/it/10 TotalHabitaciones$
- 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 144.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 144.
- [1
-
-{C:/Users/KEVINSTEVEN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-
-LaTeX Warning: Citation 'L' on page 3 undefined on input line 176.
-
-
-LaTeX Warning: Citation 'R' on page 3 undefined on input line 176.
-
-
-LaTeX Warning: Citation 'Mass' on page 3 undefined on input line 176.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
-
- []
-
-[3] <FigurasUV/r2.pdf, id=30, 1027.84pt x 545.03625pt>
+{C:/Users/KEVINSTEVEN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<FigurasUV/r2.pdf, id=13, 1027.84pt x 545.03625pt>
 File: FigurasUV/r2.pdf Graphic file (type pdf)
  <use FigurasUV/r2.pdf>
-Package pdftex.def Info: FigurasUV/r2.pdf used on input line 211.
+Package pdftex.def Info: FigurasUV/r2.pdf used on input line 216.
 (pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
 
 
-Package amsmath Warning: Foreign command \atopwithdelims;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 224.
-
-[4 <./FigurasUV/r2.pdf>]
-
-LaTeX Warning: Citation 'apl' on page 5 undefined on input line 264.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation 'Reg' on page 5 undefined on input line 265.
+LaTeX Warning: Citation 'apl' on page 2 undefined on input line 223.
 
 
-LaTeX Warning: Citation 'F' on page 5 undefined on input line 266.
+LaTeX Warning: Citation 'Reg' on page 2 undefined on input line 224.
 
 
-LaTeX Warning: Citation 'Tus' on page 5 undefined on input line 267.
+LaTeX Warning: Citation 'F' on page 2 undefined on input line 225.
 
 
-LaTeX Warning: Citation 'Lm' on page 5 undefined on input line 268.
+LaTeX Warning: Citation 'Tus' on page 2 undefined on input line 226.
+
+
+LaTeX Warning: Citation 'Lm' on page 2 undefined on input line 227.
 
 No file "Laboratorio 1".bbl.
-[5] [6] ("Laboratorio 1.aux"
+[2] [3 <./FigurasUV/r2.pdf>] ("Laboratorio 1.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
- 5281 strings out of 493334
- 73115 string characters out of 3139234
- 148701 words of memory out of 3000000
- 8703 multiletter control sequences out of 15000+200000
+ 5255 strings out of 493334
+ 72733 string characters out of 3139234
+ 150717 words of memory out of 3000000
+ 8678 multiletter control sequences out of 15000+200000
  19575 words of font info for 58 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 43i,9n,40p,939b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\eccc0900.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk> <C:\Users\KEVINSTEVEN\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\KE
-VINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.
-pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecrm1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\KEVINSTEVEN\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\K
-EVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900
+ 43i,8n,40p,513b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
+dpi600\eccc0900.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk> <C:\Users\KEVINSTEVEN\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\K
+EVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600
 .pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecbx0900.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cm
-ex7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Laboratorio 1.pdf" (6 pages, 224829 bytes).
+\dpi600\ecrm1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\KEVINSTEVEN\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\
+KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm090
+0.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi600\ecbx0900.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Laboratorio 1.pdf" (3 pages, 142688 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
+ 307 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -56,7 +56,7 @@ t <- Z%*%u  ## Componentes en Rp
 ## Representación de los Individuos en el primer Plano Factorial
 
 x11()
-plot(t[,1],t[,2])
+plot(t[,1],t[,2],xlab="Componente 1",ylab="Componente 2")
 text(t[,1],t[,2],rownames(Importaciones), cex=0.6, pos=4, col=4)
 
 #Con la función de R

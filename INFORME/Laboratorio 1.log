@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  3 SEP 2018 23:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  4 SEP 2018 09:48
 entering extended mode
 **"./Laboratorio 1.tex"
 ("Laboratorio 1.tex"
@@ -291,10 +291,7 @@ Package: harvard
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-))) ("Laboratorio 1.aux"
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-)
+))) ("Laboratorio 1.aux")
 \openout1 = `"Laboratorio 1.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -404,55 +401,97 @@ File: FigurasUV/1.pdf Graphic file (type pdf)
 Package pdftex.def Info: FigurasUV/1.pdf used on input line 238.
 (pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
 
-
-LaTeX Warning: Citation 'apl' on page 3 undefined on input line 252.
-
-
-LaTeX Warning: Citation 'Reg' on page 3 undefined on input line 253.
-
-
-LaTeX Warning: Citation 'F' on page 3 undefined on input line 254.
+<FigurasUV/2.pdf, id=22, 1027.84pt x 545.03625pt>
+File: FigurasUV/2.pdf Graphic file (type pdf)
+ <use FigurasUV/2.pdf>
+Package pdftex.def Info: FigurasUV/2.pdf used on input line 245.
+(pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
 
 
-LaTeX Warning: Citation 'Tus' on page 3 undefined on input line 255.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<FigurasUV/4.pdf, id=23, 1027.84pt x 545.03625pt>
+File: FigurasUV/4.pdf Graphic file (type pdf)
+ <use FigurasUV/4.pdf>
+Package pdftex.def Info: FigurasUV/4.pdf used on input line 253.
+(pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
 
 
-LaTeX Warning: Citation 'Lm' on page 3 undefined on input line 256.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<FigurasUV/5.pdf, id=24, 1027.84pt x 545.03625pt>
+File: FigurasUV/5.pdf Graphic file (type pdf)
+ <use FigurasUV/5.pdf>
+Package pdftex.def Info: FigurasUV/5.pdf used on input line 260.
+(pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./FigurasUV/1.pdf>] <FigurasUV/varexp.pdf, id=35, 1027.84pt x 545.03625pt>
+File: FigurasUV/varexp.pdf Graphic file (type pdf)
+
+<use FigurasUV/varexp.pdf>
+Package pdftex.def Info: FigurasUV/varexp.pdf used on input line 284.
+(pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation 'apl' on page 4 undefined on input line 298.
+
+
+LaTeX Warning: Citation 'Reg' on page 4 undefined on input line 299.
+
+
+LaTeX Warning: Citation 'F' on page 4 undefined on input line 300.
+
+
+LaTeX Warning: Citation 'Tus' on page 4 undefined on input line 301.
+
+
+LaTeX Warning: Citation 'Lm' on page 4 undefined on input line 302.
 
 No file "Laboratorio 1".bbl.
-[3 <./FigurasUV/1.pdf>] ("Laboratorio 1.aux"
+[4 <./FigurasUV/2.pdf>] [5 <./FigurasUV/4.pdf> <./FigurasUV/5.pdf>] [6 <./Figur
+asUV/varexp.pdf>] ("Laboratorio 1.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-) ) 
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5272 strings out of 493334
- 73015 string characters out of 3139234
- 153717 words of memory out of 3000000
- 8692 multiletter control sequences out of 15000+200000
+ 5292 strings out of 493334
+ 73376 string characters out of 3139234
+ 153701 words of memory out of 3000000
+ 8708 multiletter control sequences out of 15000+200000
  19575 words of font info for 58 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  43i,8n,40p,513b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecbx1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\eccc0900.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk> <C:\Users\KEVINSTEVEN\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\K
-EVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600
+ <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
+pi600\ecbx1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\jknappen\ec\dpi600\eccc0900.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk> <C:\Users\KEVINSTEVEN\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\KE
+VINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.
+pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
+dpi600\ecrm1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\KEVINSTEVEN\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\K
+EVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900
 .pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecrm1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\lj
-four\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\KEVINSTEVEN\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\
-KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm090
-0.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
-c\dpi600\ecbx0900.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Laboratorio 1.pdf" (3 pages, 128754 bytes).
+\dpi600\ecbx0900.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Laboratorio 1.pdf" (6 pages, 148813 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
+ 343 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

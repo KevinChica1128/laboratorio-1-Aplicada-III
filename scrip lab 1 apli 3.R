@@ -56,16 +56,28 @@ t <- Z%*%u  ## Componentes en Rp
 ## Representación de los Individuos en el primer Plano Factorial
 
 x11()
-plot(t[,1],t[,2],type = "b",xlab="Componente 1",ylab="Componente 2",main = "Representación de los individuos en el primer plano factorial con sus trayectorias")
+plot(t[,1],t[,2],type = "b",xlab="Componente 1",ylab="Componente 2",main = "Representación de los individuos en el primer plano principal con sus trayectorias")
 text(t[,1],t[,2],x0, cex=0.6, pos=1, col=4)
 #Con la función de R
 library(FactoMineR)
-
 x11()
 PCA.results <- PCA(Importaciones[,-1])
-
 
 library(factoextra)
 
 x11()
 fviz_pca_biplot(PCA.results)
+
+
+#Varianza explicada por las componentes principales
+library(ggplot2)
+l
+prop_varianza<-l/sum(l)
+x11()
+ggplot(data = data.frame(prop_varianza, pc = 1:6),
+       aes(x = pc, y = prop_varianza)) +
+  geom_col(width = 0.3) +
+  scale_y_continuous(limits = c(0,1)) +
+  theme_bw() +
+  labs(x = "Componente principal",
+       y = "Prop. de varianza explicada")

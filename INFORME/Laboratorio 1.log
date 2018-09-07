@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  6 SEP 2018 20:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  7 SEP 2018 14:58
 entering extended mode
 **"./Laboratorio 1.tex"
 ("Laboratorio 1.tex"
@@ -486,14 +486,14 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 File: FigurasUV/1.pdf Graphic file (type pdf)
  <use FigurasUV/1.pdf>
 Package pdftex.def Info: FigurasUV/1.pdf used on input line 240.
-(pdftex.def)             Requested size: 328.91551pt x 174.41516pt.
+(pdftex.def)             Requested size: 308.35437pt x 163.51213pt.
 
 <FigurasUV/varexp.pdf, id=25, 1027.84pt x 545.03625pt>
 File: FigurasUV/varexp.pdf Graphic file (type pdf)
 
 <use FigurasUV/varexp.pdf>
 Package pdftex.def Info: FigurasUV/varexp.pdf used on input line 266.
-(pdftex.def)             Requested size: 328.91551pt x 174.41516pt.
+(pdftex.def)             Requested size: 308.35437pt x 163.51213pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -503,53 +503,46 @@ File: FigurasUV/2.pdf Graphic file (type pdf)
 
 <use FigurasUV/2.pdf>
 Package pdftex.def Info: FigurasUV/2.pdf used on input line 274.
-(pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
+(pdftex.def)             Requested size: 308.35437pt x 163.51213pt.
  <FigurasUV/4.pdf, id=37, 1027.84pt x 545.03625pt>
 File: FigurasUV/4.pdf Graphic file (type pdf)
 
 <use FigurasUV/4.pdf>
 Package pdftex.def Info: FigurasUV/4.pdf used on input line 282.
-(pdftex.def)             Requested size: 328.91551pt x 174.41516pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<FigurasUV/5.pdf, id=38, 1027.84pt x 545.03625pt>
+(pdftex.def)             Requested size: 308.35437pt x 163.51213pt.
+ [4 <./FigurasUV/varexp.pdf> <./FigurasUV/2.pdf> <./FigurasUV/4.pdf>] <FigurasU
+V/5.pdf, id=54, 1027.84pt x 545.03625pt>
 File: FigurasUV/5.pdf Graphic file (type pdf)
- <use FigurasUV/5.pdf>
-Package pdftex.def Info: FigurasUV/5.pdf used on input line 289.
-(pdftex.def)             Requested size: 328.91551pt x 174.41516pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./FigurasUV/varexp.pdf> <./FigurasUV/2.pdf>] [5 <./FigurasUV/4.pdf> <./Figu
-rasUV/5.pdf>]
-Overfull \hbox (72.90756pt too wide) detected at line 358
+<use FigurasUV/5.pdf>
+Package pdftex.def Info: FigurasUV/5.pdf used on input line 290.
+(pdftex.def)             Requested size: 308.35437pt x 163.51213pt.
+ [5 <./FigurasUV/5.pdf>]
+Overfull \hbox (72.90756pt too wide) detected at line 361
 \OML/cmm/m/it/10 N[]ZZ[]N[] \OT1/cmr/m/n/10 = []
  []
 
 [6] <FigurasUV/6.pdf, id=69, 1027.84pt x 545.03625pt>
 File: FigurasUV/6.pdf Graphic file (type pdf)
  <use FigurasUV/6.pdf>
-Package pdftex.def Info: FigurasUV/6.pdf used on input line 415.
-(pdftex.def)             Requested size: 328.91551pt x 174.41516pt.
+Package pdftex.def Info: FigurasUV/6.pdf used on input line 418.
+(pdftex.def)             Requested size: 308.35437pt x 163.51213pt.
 
 [7 <./FigurasUV/6.pdf>]
 
-LaTeX Warning: Citation 'apl' on page 8 undefined on input line 439.
+LaTeX Warning: Citation 'apl' on page 8 undefined on input line 445.
 
 
-LaTeX Warning: Citation 'Reg' on page 8 undefined on input line 440.
+LaTeX Warning: Citation 'Reg' on page 8 undefined on input line 446.
 
 
-LaTeX Warning: Citation 'F' on page 8 undefined on input line 441.
+LaTeX Warning: Citation 'F' on page 8 undefined on input line 447.
 
 
-LaTeX Warning: Citation 'Tus' on page 8 undefined on input line 442.
+LaTeX Warning: Citation 'Tus' on page 8 undefined on input line 448.
 
 
-LaTeX Warning: Citation 'Lm' on page 8 undefined on input line 443.
+LaTeX Warning: Citation 'Lm' on page 8 undefined on input line 449.
 
 No file "Laboratorio 1".bbl.
 [8] ("Laboratorio 1.aux"
@@ -567,7 +560,7 @@ Here is how much of TeX's memory you used:
  9189 multiletter control sequences out of 15000+200000
  22766 words of font info for 67 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 43i,8n,40p,513b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,8n,40p,660b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
 pi600\ecbx1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\jknappen\ec\dpi600\eccc0900.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2
@@ -592,7 +585,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy7.pfb>
-Output written on "Laboratorio 1.pdf" (8 pages, 214646 bytes).
+Output written on "Laboratorio 1.pdf" (8 pages, 216352 bytes).
 PDF statistics:
  422 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

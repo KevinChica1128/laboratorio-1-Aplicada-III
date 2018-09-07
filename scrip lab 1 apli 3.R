@@ -11,6 +11,8 @@ Importaciones <- read_excel("Importaciones.xlsx",
                                           "numeric"))
 View(Importaciones)
 
+#ACP PARA LOS INDIVIDUOS (EN Rp)
+
 ## Función para sd (1/n)
 sd2 <- function (x) {
   
@@ -81,3 +83,56 @@ ggplot(data = data.frame(prop_varianza, pc = 1:6),
   theme_bw() +
   labs(x = "Componente principal",
        y = "Prop. de varianza explicada")
+
+
+#ACP PARA LAS VARIABLES (EN Rn)
+#MANUAL
+
+### Se construye la matriz N^(1/2)ZZ'N^(1/2)
+
+n1.2 <- sqrt(1/20)
+
+N1.2 <- diag(n1.2,20,20)
+
+ZZt <- N1.2%*%Z%*%t(Z)%*%N1.2
+
+ln  <- eigen(ZZt)$values
+V <- eigen(ZZt)$vectors
+
+Tn <- t(Z)%*%N1.2%*%V ## Componentes en Rn
+
+rownames(Tn) <- colnames(Importaciones[,-1])
+
+### Representación de las variables en Rn
+
+x11()
+plot(Tn[,1],Tn[,2],xlab = "Componente 1",ylab = "Componente 2")
+text(Tn[,1],Tn[,2],colnames(Importaciones[,-1]), cex=1, pos=1, col=4)
+
+
+#### Analisis en los dos espacios
+x11()
+par(mfrow=c(1,2))
+
+plot(t[,1],t[,2],ylim=c(-2,2),xlim=c(-2,2))
+text(t[,1],t[,2],rownames(Importaciones), cex=0.6, pos=4, col=4)
+
+plot(Tn[,1],Tn[,2],xlim=c(-1,1),ylim=c(-1,1))
+text(Tn[,1],Tn[,2],colnames(Importaciones[,-1]), cex=1, pos=4, col=4)
+
+
+### Representacion Simultanea Manual
+
+x11()
+plot(t[,1],t[,2],ylim=c(-4,4),xlim=c(-4,4))
+text(t[,1],t[,2],rownames(Importaciones), cex=0.6, pos=4, col=4)
+text((-sqrt(3))*Tn[,1],(-sqrt(3))*Tn[,2],colnames(Importaciones[,-1]), cex=1, pos=4, col=2)
+abline(h=0,col=1,lty=2)
+abline(v=0,col=1,lty=2)
+
+#CON FACTOMINER
+library(FactoMineR)
+x11()
+PCA.results <- PCA(Importaciones[,-1])
+PCA.results$var
+PCA.results$ind

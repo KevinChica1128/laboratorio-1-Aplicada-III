@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  4 SEP 2018 09:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  6 SEP 2018 20:06
 entering extended mode
 **"./Laboratorio 1.tex"
 ("Laboratorio 1.tex"
@@ -291,35 +291,79 @@ Package: harvard
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-))) ("Laboratorio 1.aux")
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count130
+\Gm@cntv=\count131
+\c@Gm@tempcnt=\count132
+\Gm@bindingoffset=\dimen133
+\Gm@wd@mp=\dimen134
+\Gm@odd@mp=\dimen135
+\Gm@even@mp=\dimen136
+\Gm@layoutwidth=\dimen137
+\Gm@layoutheight=\dimen138
+\Gm@layouthoffset=\dimen139
+\Gm@layoutvoffset=\dimen140
+\Gm@dimlist=\toks31
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("Laboratorio 1.aux"
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
+)
 \openout1 = `"Laboratorio 1.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 (C:\Users\KEVINSTEVEN\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen133
+\scratchcounter=\count133
+\scratchdimen=\dimen141
 \scratchbox=\box54
-\nofMPsegments=\count131
-\nofMParguments=\count132
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen134
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
-\everyMPtoPDFconversion=\toks32
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen142
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks33
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -361,114 +405,167 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(56.9055pt, 709.61174pt, 28.45274pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=709.61174pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-44.43613pt
+* \headheight=12.0pt
+* \headsep=17.07164pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=5.69054pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=-15.36446pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 51.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 52.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
-LaTeX Warning: Characters dropped after `\end{comment}' on input line 125.
+LaTeX Warning: Characters dropped after `\end{comment}' on input line 126.
 
 [1
 
 {C:/Users/KEVINSTEVEN/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (23.4702pt too wide) in paragraph at lines 167--179
+[][] 
+ []
+
+
+Overfull \hbox (2.02547pt too wide) detected at line 233
+\OML/cmm/m/it/10 C \OT1/cmr/m/n/10 = []
+ []
+
 [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 235.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 237.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 235.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 237.
 
-<FigurasUV/1.pdf, id=21, 1027.84pt x 545.03625pt>
+<FigurasUV/1.pdf, id=24, 1027.84pt x 545.03625pt>
 File: FigurasUV/1.pdf Graphic file (type pdf)
  <use FigurasUV/1.pdf>
-Package pdftex.def Info: FigurasUV/1.pdf used on input line 238.
-(pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
+Package pdftex.def Info: FigurasUV/1.pdf used on input line 240.
+(pdftex.def)             Requested size: 328.91551pt x 174.41516pt.
 
-<FigurasUV/2.pdf, id=22, 1027.84pt x 545.03625pt>
-File: FigurasUV/2.pdf Graphic file (type pdf)
- <use FigurasUV/2.pdf>
-Package pdftex.def Info: FigurasUV/2.pdf used on input line 245.
-(pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<FigurasUV/4.pdf, id=23, 1027.84pt x 545.03625pt>
-File: FigurasUV/4.pdf Graphic file (type pdf)
- <use FigurasUV/4.pdf>
-Package pdftex.def Info: FigurasUV/4.pdf used on input line 253.
-(pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<FigurasUV/5.pdf, id=24, 1027.84pt x 545.03625pt>
-File: FigurasUV/5.pdf Graphic file (type pdf)
- <use FigurasUV/5.pdf>
-Package pdftex.def Info: FigurasUV/5.pdf used on input line 260.
-(pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3 <./FigurasUV/1.pdf>] <FigurasUV/varexp.pdf, id=35, 1027.84pt x 545.03625pt>
+<FigurasUV/varexp.pdf, id=25, 1027.84pt x 545.03625pt>
 File: FigurasUV/varexp.pdf Graphic file (type pdf)
 
 <use FigurasUV/varexp.pdf>
-Package pdftex.def Info: FigurasUV/varexp.pdf used on input line 284.
-(pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
+Package pdftex.def Info: FigurasUV/varexp.pdf used on input line 266.
+(pdftex.def)             Requested size: 328.91551pt x 174.41516pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[3 <./FigurasUV/1.pdf>] <FigurasUV/2.pdf, id=36, 1027.84pt x 545.03625pt>
+File: FigurasUV/2.pdf Graphic file (type pdf)
 
-LaTeX Warning: Citation 'apl' on page 4 undefined on input line 298.
+<use FigurasUV/2.pdf>
+Package pdftex.def Info: FigurasUV/2.pdf used on input line 274.
+(pdftex.def)             Requested size: 400.85599pt x 212.56328pt.
+ <FigurasUV/4.pdf, id=37, 1027.84pt x 545.03625pt>
+File: FigurasUV/4.pdf Graphic file (type pdf)
+
+<use FigurasUV/4.pdf>
+Package pdftex.def Info: FigurasUV/4.pdf used on input line 282.
+(pdftex.def)             Requested size: 328.91551pt x 174.41516pt.
 
 
-LaTeX Warning: Citation 'Reg' on page 4 undefined on input line 299.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<FigurasUV/5.pdf, id=38, 1027.84pt x 545.03625pt>
+File: FigurasUV/5.pdf Graphic file (type pdf)
+ <use FigurasUV/5.pdf>
+Package pdftex.def Info: FigurasUV/5.pdf used on input line 289.
+(pdftex.def)             Requested size: 328.91551pt x 174.41516pt.
 
 
-LaTeX Warning: Citation 'F' on page 4 undefined on input line 300.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./FigurasUV/varexp.pdf> <./FigurasUV/2.pdf>] [5 <./FigurasUV/4.pdf> <./Figu
+rasUV/5.pdf>]
+Overfull \hbox (72.90756pt too wide) detected at line 358
+\OML/cmm/m/it/10 N[]ZZ[]N[] \OT1/cmr/m/n/10 = []
+ []
+
+[6] <FigurasUV/6.pdf, id=69, 1027.84pt x 545.03625pt>
+File: FigurasUV/6.pdf Graphic file (type pdf)
+ <use FigurasUV/6.pdf>
+Package pdftex.def Info: FigurasUV/6.pdf used on input line 415.
+(pdftex.def)             Requested size: 328.91551pt x 174.41516pt.
+
+[7 <./FigurasUV/6.pdf>]
+
+LaTeX Warning: Citation 'apl' on page 8 undefined on input line 439.
 
 
-LaTeX Warning: Citation 'Tus' on page 4 undefined on input line 301.
+LaTeX Warning: Citation 'Reg' on page 8 undefined on input line 440.
 
 
-LaTeX Warning: Citation 'Lm' on page 4 undefined on input line 302.
+LaTeX Warning: Citation 'F' on page 8 undefined on input line 441.
+
+
+LaTeX Warning: Citation 'Tus' on page 8 undefined on input line 442.
+
+
+LaTeX Warning: Citation 'Lm' on page 8 undefined on input line 443.
 
 No file "Laboratorio 1".bbl.
-[4 <./FigurasUV/2.pdf>] [5 <./FigurasUV/4.pdf> <./FigurasUV/5.pdf>] [6 <./Figur
-asUV/varexp.pdf>] ("Laboratorio 1.aux"
+[8] ("Laboratorio 1.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5292 strings out of 493334
- 73376 string characters out of 3139234
- 153701 words of memory out of 3000000
- 8708 multiletter control sequences out of 15000+200000
- 19575 words of font info for 58 fonts, out of 3000000 for 9000
+ 5791 strings out of 493334
+ 80748 string characters out of 3139234
+ 167900 words of memory out of 3000000
+ 9189 multiletter control sequences out of 15000+200000
+ 22766 words of font info for 67 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  43i,8n,40p,513b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
@@ -478,20 +575,26 @@ ur\jknappen\ec\dpi600\eccc0900.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\KE
 VINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.
 pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecrm1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\KEVINSTEVEN\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\K
-EVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900
+dpi600\ecbx1200.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\KEVINSTEVEN\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\K
+EVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440
 .pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecbx0900.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Laboratorio 1.pdf" (6 pages, 148813 bytes).
+\dpi600\ecrm0900.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\ecbx0900.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy7.pfb>
+Output written on "Laboratorio 1.pdf" (8 pages, 214646 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
+ 422 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

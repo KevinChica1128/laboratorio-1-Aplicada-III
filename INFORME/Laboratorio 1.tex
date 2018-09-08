@@ -160,6 +160,26 @@ Año	& Colombia & Brasil & Chile & Argentina &	Ecuador &	Peru \\
 \end{tabular}
 \end{center}
 
+\pagebreak
+\section{Estadísticas descriptivas}
+~\\En la siguiente tabla se resumen las estadísticas descriptivas para las variables (los países):
+
+\begin{center}
+\begin{tabular}{ccccccc}
+\hline 
+Descriptivas & Colombia & Brasil & Chile & Argentina & Ecuador & Perú \\ 
+\hline 
+Minimo & 32 & 11.8 & 45.6 & 15.2 & 6 & 14.1 \\  
+1st. Cuartil & 73.28 & 26.5 & 70.1 & 25.38 & 19.45 & 70.65 \\ 
+Mediana & 83.05 & 64.7 & 80.1 & 33.1 & 66.5 & 104.2 \\ 
+Media & 86.68 & 57.46 & 92.94 & 36.32 & 69.5 & 93.23 \\ 
+3rd. Cuartil & 110.25 & 77.8 & 102.42 & 50.4 & 104.88 & 112.72 \\ 
+Máximo & 140.3 & 97.4 & 195.3 & 60.5 & 169.4 & 146.1 \\ 
+Desviación Est. & 28.41033 & 29.18638 & 38.44684 & 14.08006 & 49.30692 & 34.89316 \\ 
+\hline 
+\end{tabular}
+\end{center}
+~\\En la tabla anterior podemos ver que en promedio, el país que mas importaciones ha hecho provenientes de Estados Unidos  entre 1991 y 2010 es Perú, con un promedio de 93.23 importaciones, seguido de Chile (92.94) y Colombia (86.68). Además, Chile ha sido el país que ha hecho más importaciones en un año especifico, con 195.3 (máximo) importaciones, y el que menos importaciones ha realizado provenientes de Estados Unidos en un año especifico entre 1991 y 2010 fue Ecuador, con tan solo 6 (mínimo)importaciones.
 \section{Procedimiento ACP}
 \subsection{ACP para los individuos $R^6$}
 ~\\Para llevar a cabo el análisis de componentes principales de la base de datos anterior, estandarizaremos las variables que en nuestro caso son los países, ya que aunque todas están medidas en la misma escala, podría haber diferencias por el tipo de economía que maneja cada país. La matriz de correlaciones correspondiente a esta base de datos es:
@@ -179,13 +199,7 @@ Perú & 0.2790988 & 0.3709440 & 0.4937184 & 0.1828657 & 0.6547563 & 1 \\
 
 ~\\Para realizar el análisis de forma multivariada, debemos diagonalizar la matriz de correlaciones, es decir, obtener su descomposición en valores y  vectores propios correspondientes.
 
-~\\Esta matriz de correlaciones tiene 6 valores propios positivos, que son:
-$$\lambda_1=2.1934092$$
-$$\lambda_2=1.9561781$$
-$$\lambda_3=0.9038789$$
-$$\lambda_4=0.5119470$$
-$$\lambda_5=0.2854407$$
-$$\lambda_6=0.1491461$$
+~\\Esta matriz de correlaciones tiene 6 valores propios positivos, que son:$\lambda_1=2.1934092$,$\lambda_2=1.9561781$,$\lambda_3=0.9038789$,$\lambda_4=0.5119470$,$\lambda_5=0.2854407$,$\lambda_6=0.1491461$
 
 ~\\Con los valores propios obtenidos, procedemos a hallar los vectores propios correspondientes
 \begin{center}
@@ -232,15 +246,14 @@ Entonces, las componentes serán:
 \end{array}
 \right)\] 
 
-
 \begin{itemize}
-\item Representación de los individuos en el primer plano principal:
+\item Representación de los individuos en el primer plano principal con sus trayectorias:
 \begin{figure}[h]
   \centering
-  \includegraphics[scale=0.3]{FigurasUV/1.pdf}
+  \includegraphics[scale=0.25]{FigurasUV/1.pdf}
   \caption{Representación de los individuos}\label{figura1}
 \end{figure}
-
+~\\En esta imagen vemos la representación de los individuos (años en nuestro caso) y las lineas que se forman entre años consecutivos son llamadas trayectorias. Las trayectorias trazadas son las distancias entre los individuos, las cuales podemos interpretar de un año a otro. Si la longitud o la distancia de la trayectoria es corta, en dichos años las importaciones fueron similares o por el contrario, si la distancia es grande las importaciones de un año a otro fueron muy diferentes. En la figura 1 podemos ver claramente como la línea entre 1991 y 1992 es corta, esto porque los promedios de importaciones en esos 2 años fueron muy cercanos, mientras que un año después, la línea entre 1992 y 1993, es mucho más larga y esto es porque el año de 1993 tuvo un promedio de importaciones de 90.78333 mientras que en 1992 el promedio de importaciones fue solo de 33.5; basados en esto podemos decir que para los años entre 1995 y 1999 las importaciones en los países suramericanos tuvieron un crecimiento mayor al de los años anteriores, mientras que en los años siguientes su crecimiento fue mas constante.
 
 
 \item Porcentaje de Inercia explicado por las componentes principales:
@@ -271,33 +284,34 @@ $\lambda_6$ & 0.1491461 & $2.49 \%$ & $100 \% $ \\
 \item Circulo de correlaciones:
 \begin{figure}[h]
   \centering
-  \includegraphics[scale=0.3]{FigurasUV/2.pdf}
+  \includegraphics[scale=0.4]{FigurasUV/2.pdf}
   \caption{Círculo de correlaciones para las variables de la tabla de importaciones generado por las dos
 primeras componentes principales}\label{figura1}
 \end{figure}
+~\\En esta gráfica se puede observar que las variables mejor representadas por el plano son los países Colombia y Perú, ya que la recta esta más cerca del limite del circulo de correlaciones, esto nos dice que estas dos variables tienen una correlación elevada con las componentes que generan el plano. Los países Brasil, Chile y Ecuador también son bien representados, pero no tanto como los dos primeros. Argentina tiene poca representación en el plano formado.
 
 \item Representación de los individuos en el primer plano principal:
 \begin{figure}[h!]
   \centering
-  \includegraphics[scale=0.3]{FigurasUV/4.pdf}
+  \includegraphics[scale=0.36]{FigurasUV/4.pdf}
   \caption{Representación de los individuos}\label{figura1}
 \end{figure}
 
-\pagebreak
 \item Representación de los individuos con las variables en el primer plano principal:
 \begin{figure}[h]
   \centering
-  \includegraphics[scale=0.3]{FigurasUV/5.pdf}
+  \includegraphics[scale=0.36]{FigurasUV/5.pdf}
   \caption{Primer plano principal para la tabla de importaciones, generado por las dos
 primeras componentes principales}\label{figura1}
 \end{figure}
-
+~\\En la figura 5 podemos ver los vectores correspondientes a cada variable (país), de los cuales podemos notar que países como: Perú, Ecuador y Argentina tienen alta correlación con el eje 1, por ende, años con valores altos en la componente 1 significan altas importaciones en dichos países y valores bajos en la componente 1 significan bajas importaciones en dichos países en esos años, por otra parte; Colombia y Chile tiene una correlación intermedia, ósea el ángulo que forma el vector entre la variable y el eje 1 es similar al ángulo que forma la variable con el eje 2, por tanto, valores altos en los dos ejes significa altas importaciones para Chile en ese año y valores bajos en ambos ejes, significan altas importaciones para Colombia. Por otra parte, Brasil tiene alta correlación con el eje 2, por ende, valores altos en la componente 2 significan altas importaciones esos años en Brasil.
+\pagebreak
 \item \textbf{Cosenos cuadrados y contribuciones:}
 ~\\Los cosenos cuadrados y las contribuciones en las dos primeras dimensiones para los individuos son:
 \begin{center}
 \begin{tabular}{|cc|cc|}
 \hline 
- $cos^2$ &  & contribuciones  &   \\ 
+ Cosenos & Cuadrados  & Contribuciones  &   \\ 
 Componente 1 & Componente 2 & Componente 1 & Componente 2 \\ 
 0.939844281 & 0.003551024 & 29.20596190 & 0.1237316 \\ 
 0.802730728 & 0.1099134 & 20.30001454 & 3.116652 \\  
@@ -415,7 +429,7 @@ Peru & 0.9028508&  0.2056407& -0.158735325&  0.09986052& -0.22406122&  0.2391648
 \item Representación de las variables en el primer plano principal:
 \begin{figure}[h]
   \centering
-  \includegraphics[scale=0.3]{FigurasUV/6.pdf}
+  \includegraphics[scale=0.37]{FigurasUV/6.pdf}
   \caption{Representación de las variables}\label{figura1}
 \end{figure}
 
@@ -424,7 +438,7 @@ Peru & 0.9028508&  0.2056407& -0.158735325&  0.09986052& -0.22406122&  0.2391648
 \begin{center}
 \begin{tabular}{|c|cc|cc|}
 \hline 
- País &$cos^2$ &  & contribuciones  &   \\ 
+ País &Cosenos &Cuadrados  & contribuciones  &   \\ 
  &Componente 1 & Componente 2 & Componente 1 & Componente 2 \\ 
 Colombia &0.23404762 & 0.63756727 & 10.670495 & 32.592496 \\ 
 Brasil &0.05535309 &0.71205730 & 2.523610 & 36.400433 \\  
@@ -440,14 +454,54 @@ Peru &0.81513961 & 0.04228811 & 37.163134 & 2.161772 \\
 
 ~\\Ahora, en cuanto a las contribuciones de las variables, podemos notar que los países Perú, Ecuador, Chile y Colombia son los que más aporte tuvieron en la construcción del eje 1, ya que sus contribuciones son las más altas. En cuanto a la construcción del eje 2, los países que mas contribuyeron fueron Brasil, Colombia y Chile.
 
+\section{Construcción de Indice}
+~\\En las componentes principales correspondientes al ACP para las variables, podemos observar que la primera componente tiene todos los valores positivos, esto nos dice que todos los 6 países están relacionados positivamente con el eje 1, por lo cuál tenemos lo que se llama factor tamaño y se puede construir un indice con dicha componente de la siguiente manera:
+$$I=0.4837847 Colombia+0.2352724 Brasil + 0.5008368 Chile +0.4292863 Argentina+0.8085448 Ecuador$$
+$$+0.9028508 Peru$$
+\begin{itemize}
+\item INDICE DEL CRECIMIENTO ECONÓMICO EN SUDAMÉRICA: 
+~\\Los betas o coeficientes en la regresión anterior nos indican la correlación de la variable con nuestro índice, esto se podría interpretar también como la importancia del país dentro del crecimiento económico en Sudamérica. Con el modelo dado anteriormente, tendremos 20 indices (uno para cada año) de crecimiento económico en Sudamérica.
+~\\En la siguiente tabla se mostraran los 20 indices originales arrojados por el modelo de la primera componente principal, pero además, se mostrarán los indices re escalados a una escala de 0 a 100, donde 0 no implica la ausencia del crecimiento y económico, simplemente significa que fue el menor indice que se obtuvo y 100 significa que ese fue el indice más alto que se obtuvo.
+~\\La transformación que se utilizó para re escalar los indices originales fue la siguiente:
+$$\left(\frac{I-\min{I}}{\max{I}-\min{I}}\right)\cdot 100$$
 
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline 
+Año & Indice Original & Indice re-escalado \\ 
+\hline 
+1991 & 76.8848 & 0 \\ 
+1992 & 105.8963 & 9.886876 \\ 
+1993 & 340.6289 & 89.88188 \\  
+1994 & 370.3189 & 100 \\  
+1995 & 370.202 & 99.96016 \\  
+1996 & 351.938 & 93.73593 \\ 
+1997 & 274.2018 & 67.24405 \\ 
+1998 & 153.4388 & 26.08901 \\  
+1999 & 212.3041 & 46.1498 \\  
+2000 & 220.6235 & 48.98501 \\  
+2001 & 263.5299 & 63.60716 \\  
+2002 & 234.8063 & 53.81839 \\  
+2003 & 257.935 & 61.70048 \\  
+2004 & 185.6864 & 37.07872 \\  
+2005 & 249.2168 & 58.72936 \\  
+2006 & 316.7728 & 81.75191 \\  
+2007 & 316.2897 & 81.58728 \\ 
+2008 & 254.7682 & 60.62123 \\  
+2009 & 290.352 & 72.74792 \\  
+2010 & 313.4227 & 80.61023 \\ 
+\hline 
+\end{tabular} 
+\end{center}
+\end{itemize}
+~\\Con los indices construidos y observando la tabla anterior, podemos concluir que el año que menos crecimiento económico hubo en Sudamérica fue en 1991, y los años en los cuales hubo un crecimiento económico notable fueron en 1993,1995,1996 y 1994. Si vemos la base de datos original, podemos observar que justamente en el año 1991 fue donde menos importaciones tuvieron los países en general, en cambio, si observamos el año 1994, que corresponde a 100 en la escala nueva, fue el año en el cual se tuvo un gran número de importaciones para todos los países.
 \setlength{\parskip}{1mm}
-~\\\nocite{apl}
-\nocite{Reg}
-\nocite{F}
-\nocite{Tus}
-\nocite{Lm}
-
+~\\\nocite{REX}
+\nocite{ggp2}
+\nocite{FE}
+\nocite{FMR}
+\nocite{Multi}
+\nocite{Leb}
 
 % //// --------------------------------------------------------------------------------
 % -------------------------------------------------------------------------------------

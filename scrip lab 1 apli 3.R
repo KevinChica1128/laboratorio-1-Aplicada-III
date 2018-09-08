@@ -11,6 +11,9 @@ Importaciones <- read_excel("Importaciones.xlsx",
                                           "numeric"))
 View(Importaciones)
 
+#Descriptivas:
+summary(Importaciones)
+sd(Importaciones[,7])
 #ACP PARA LOS INDIVIDUOS (EN Rp)
 
 ## Función para sd (1/n)
@@ -136,3 +139,9 @@ x11()
 PCA.results <- PCA(Importaciones[,-1])
 PCA.results$var
 PCA.results$ind
+
+#Construcción Indices por año:
+I=PCA.results$var$coord[,1]%*%t(Importaciones[,-1]) #Vector de indices por año
+Ie=(I-min(I))/(max(I)-min(I))*100 #Reescalado de indices
+x11()
+hist(I)

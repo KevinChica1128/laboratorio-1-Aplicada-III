@@ -128,7 +128,7 @@ de grado.tex}) and can be used as a guideline just replacing its contents. It is
 % Título de la primera sección
 % **** --------------------------------------------------------------------------------
 \section{Introducción}
-~\\En el presente informe veremos el uso y aplicación del análisis de componentes principales en una base de datos que contiene las importaciones hechas por los países suramericanos (Colombia, Brasil, Chile, Argentina, Ecuador y Perú), éstas provenientes de Estados Unidos, entre 1991 y 2010. Se analizara la cantidad de ejes o componentes principales a utilizar y se darán algunas interpretaciones de las trayectorias que se pueden formar entre los años consecutivos.
+~\\En el presente informe veremos el uso y aplicación del análisis de componentes principales en una base de datos que contiene las importaciones hechas por los países suramericanos (Colombia, Brasil, Chile, Argentina, Ecuador y Perú), éstas provenientes de Estados Unidos, entre 1991 y 2010. Se analizará la cantidad de ejes o componentes principales a utilizar y se darán algunas interpretaciones de algunas tablas y gráficas obtenidas y de las trayectorias que se pueden formar entre los años consecutivos. Además, se analizará la posibilidad de construir un indice dependiendo de las componentes principales que obtengamos, si se da la posibilidad, se mostrará el proceso de construcción del indice y un posible re-escalamiento de este. 
 
 ~\\ La base de datos sobre la cuál se va a trabajar es la siguiente:
 \begin{center}
@@ -217,7 +217,7 @@ $\lambda_{1}$ & $\lambda_{2}$ & $\lambda_{3}$ & $\lambda_{4}$ & $\lambda_{5}$ & 
 \end{center}
 
 ~\\Ahora, para encontrar las componentes principales, hacemos el producto de la matriz de datos estandarizados con la matriz que contiene los vectores propios obtenidos de la matriz de correlaciones:
-$$C=Z\cdot V$$
+$$C=Z\cdot U$$
 Entonces, las componentes serán:
 
 \[C=
@@ -253,7 +253,7 @@ Entonces, las componentes serán:
   \includegraphics[scale=0.25]{FigurasUV/1.pdf}
   \caption{Representación de los individuos}\label{figura1}
 \end{figure}
-~\\En esta imagen vemos la representación de los individuos (años en nuestro caso) y las lineas que se forman entre años consecutivos son llamadas trayectorias. Las trayectorias trazadas son las distancias entre los individuos, las cuales podemos interpretar de un año a otro. Si la longitud o la distancia de la trayectoria es corta, en dichos años las importaciones fueron similares o por el contrario, si la distancia es grande las importaciones de un año a otro fueron muy diferentes. En la figura 1 podemos ver claramente como la línea entre 1991 y 1992 es corta, esto porque los promedios de importaciones en esos 2 años fueron muy cercanos, mientras que un año después, la línea entre 1992 y 1993, es mucho más larga y esto es porque el año de 1993 tuvo un promedio de importaciones de 90.78333 mientras que en 1992 el promedio de importaciones fue solo de 33.5; basados en esto podemos decir que para los años entre 1995 y 1999 las importaciones en los países suramericanos tuvieron un crecimiento mayor al de los años anteriores, mientras que en los años siguientes su crecimiento fue mas constante.
+~\\En esta imagen vemos la representación de los individuos (años en nuestro caso) y las lineas que se forman entre años consecutivos son llamadas trayectorias. Las trayectorias trazadas son las distancias entre los individuos, las cuales podemos interpretar de un año a otro. Si la longitud o la distancia de la trayectoria es corta, en dichos años las importaciones fueron similares o por el contrario, si la distancia es grande las importaciones de un año a otro fueron muy diferentes. En la figura 1 podemos ver claramente como la línea entre 1991 y 1992 es corta, esto porque los promedios de importaciones en esos 2 años fueron muy cercanos, mientras que un año después, la línea entre 1992 y 1993, es mucho más larga y esto es porque el año de 1993 tuvo un promedio de importaciones de 90.78333 mientras que en 1992 el promedio de importaciones fue solo de 33.5; basados en esto podemos decir que entre los años 1995 y 1999 las importaciones en los países suramericanos tuvieron un crecimiento mayor al de los años anteriores, mientras que en los años siguientes su crecimiento fue mas constante.
 
 
 \item Porcentaje de Inercia explicado por las componentes principales:

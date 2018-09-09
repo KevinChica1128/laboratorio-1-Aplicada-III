@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  7 SEP 2018 20:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  8 SEP 2018 22:40
 entering extended mode
 **"./Laboratorio 1.tex"
 ("Laboratorio 1.tex"
@@ -562,7 +562,7 @@ Here is how much of TeX's memory you used:
  9215 multiletter control sequences out of 15000+200000
  23452 words of font info for 68 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 43i,8n,40p,1153b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,8n,40p,1148b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
 pi600\ecti1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\KEVINSTEVEN\AppData\Local\MiKTeX\2
@@ -588,7 +588,7 @@ cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb>
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Laboratorio 1.pdf" (10 pages, 255200 bytes).
+Output written on "Laboratorio 1.pdf" (10 pages, 255705 bytes).
 PDF statistics:
  503 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
